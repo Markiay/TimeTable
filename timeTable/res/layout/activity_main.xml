@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/mainbg"
+    tools:context="com.example.timetable.MainActivity" >
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:text="Click to Enter" />
+
+    <TextView
+        android:id="@+id/textZero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEnter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="Course Control Manager"
+        android:textStyle="bold|italic"
+        android:textSize="22sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnQuit"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEnter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:text="Click to Quit" />
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="15sp"
+        android:text="Setting" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<TextView
+        android:id="@+id/textA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Soon..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#CAE1FF">
+    
+    <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="L: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/ONETIME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09:00"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/COURSEL"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"
+                android:text="Distributed System"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:background="#8DEEEE">
+            
+    <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="P: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TWOTIME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13:00"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/COURSEP"
+                android:layout_width="199dp"
+                android:layout_height="wrap_content"      
+                android:text="Data Structures And Algorithms"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+</LinearLayout>

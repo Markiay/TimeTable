@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/courseCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMP3009J"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/texta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TYPE: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/courseType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DAYofWEEK: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/courseWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Th"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STARTTIME: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/courseTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:00"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION: "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/courseLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B1.06"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:text="Turn On Notice" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>
